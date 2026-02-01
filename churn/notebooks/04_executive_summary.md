@@ -1,18 +1,34 @@
-Executive Overview
-Analisis ini mengevaluasi pola churn customer pada perusahaan berbasis subscription untuk mengidentifikasi area risiko utama dan faktor yang terkait dengan churn. Hasil analisis menunjukkan bahwa churn terkonsentrasi pada segmen tertentu dengan karakteristik perilaku dan layanan yang konsisten. Temuan ini memberikan dasar bagi manajemen untuk menentukan prioritas strategi retensi.
+# Executive Summary — Customer Churn Analysis
 
-Key Findings
-Customer dengan kontrak Month-to-month memiliki churn tertinggi (~43%), jauh di atas kontrak jangka panjang.
-Customer churn memiliki tenure lebih pendek (~18 bulan) dibanding non-churn (~38 bulan).
-Customer tanpa TechSupport dan OnlineSecurity menunjukkan churn >40%, hampir 3x lebih tinggi dibanding customer dengan layanan tersebut.
-Monthly Charges pada customer churn lebih tinggi dibanding non-churn.
-Business Implications
-Pola ini menunjukkan bahwa risiko churn paling tinggi terjadi pada customer dengan komitmen rendah, beban biaya relatif tinggi, dan keterbatasan dukungan layanan. Tanpa intervensi, segmen ini berpotensi memberikan dampak signifikan terhadap stabilitas pendapatan dan biaya akuisisi customer.
+## Objective
+Mengidentifikasi segmen customer dan faktor pengalaman utama yang berkaitan dengan churn, untuk menentukan prioritas strategi retensi.
 
-Management Recommendations
-Prioritaskan strategi retensi pada customer kontrak Month-to-month, khususnya di fase awal berlangganan.
-Evaluasi struktur harga dan value proposition pada segmen dengan Monthly Charges tinggi.
-Tingkatkan adopsi layanan TechSupport dan OnlineSecurity sebagai bagian dari strategi retensi.
-Next Steps
-Analisis lanjutan untuk mengukur dampak finansial churn (revenue at risk).
-Pengujian strategi retensi terarah pada segmen berisiko tinggi.
+## Key Facts
+- Tingkat churn keseluruhan: ±26%
+- Churn tertinggi terkonsentrasi pada:
+  - Kontrak **Month-to-month** (~43%)
+  - Layanan **Fiber Optic** (~42%)
+  - **Senior citizen** (~42%)
+- Customer churn memiliki:
+  - Tenure lebih pendek
+  - Monthly Charges lebih tinggi
+
+## Key Drivers
+- **Customer lifecycle:** churn dominan terjadi pada fase awal berlangganan
+- **Pricing pressure:** biaya bulanan tinggi tanpa komitmen jangka panjang
+- **Service experience:** ketiadaan TechSupport dan OnlineSecurity berkorelasi kuat dengan lonjakan churn
+
+## High-Risk Profile (Ringkas)
+Customer baru + kontrak month-to-month + biaya bulanan tinggi + tanpa dukungan layanan
+
+## Business Implications
+Churn tidak tersebar merata, tetapi terkonsentrasi pada segmen tertentu.  
+Intervensi retensi akan paling berdampak jika difokuskan pada:
+- customer awal berlangganan
+- kontrak jangka pendek
+- customer tanpa layanan pendukung
+
+## Recommended Next Steps
+- Perkuat onboarding & early-lifecycle engagement
+- Bundling atau insentif TechSupport / OnlineSecurity
+- Dorong migrasi dari month-to-month ke kontrak jangka panjang
